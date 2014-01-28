@@ -1,6 +1,6 @@
 # lein-worker
 
-A Leiningen plugin that uploads your project jar to [IronWorker](http://www.iron.io/worker)
+A Leiningen plugin that uploads your project jar to [IronWorker](http://www.iron.io/worker).
 
 ## Usage
 
