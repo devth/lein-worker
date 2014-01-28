@@ -1,4 +1,4 @@
-(defproject lein-worker "0.1.0-SNAPSHOT"
+(defproject lein-worker "0.1.0"
   :description "A plugin to upload worker jars to Iron Worker"
   :url "https://github.com/devth/lein-worker"
   :license {:name "Eclipse Public License"
