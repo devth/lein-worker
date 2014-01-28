@@ -13,7 +13,7 @@ For project-level plugins:
 
 Put `[lein-worker "0.1.0"]` into the `:plugins` vector of your project.clj.
 
-This plugin relies on the [`iron_worker_ng` gem](http://dev.iron.io/worker/languages/java/).
+This plugin relies on the [`iron_worker_ng`](http://dev.iron.io/worker/languages/java/) gem.
 Make sure it is installed and [configured](http://dev.iron.io/worker/reference/configuration) on your system.
 
 ## Usage
