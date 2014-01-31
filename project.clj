@@ -1,4 +1,4 @@
-(defproject lein-worker "0.1.1"
+(defproject lein-worker "0.1.2-SNAPSHOT"
   :description "A plugin to upload worker jars to Iron Worker"
   :url "https://github.com/devth/lein-worker"
   :lein-release {:deploy-via :clojars}
