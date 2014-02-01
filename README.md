@@ -46,6 +46,12 @@ Run `lein help worker $SUBTASK` for subtask details.
 Arguments: ([run] [prepare] [upload] [run-local])
 ```
 
+> N.B. You must run `lein worker prepare` before trying out your worker with
+> `lein worker run-local` **every time** you make changes to your code. `lein
+> worker run-local` runs the uberjar in your target directory. Because of the
+> slowness of this workflow, it's better to use your normal testing or
+> REPL-driven workflow and only verify with `lein worker run-local` before
+> uploading to IronWorker and running it remotely.
 
 ## TODO
 
